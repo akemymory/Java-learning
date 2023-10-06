@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e6c7e2f-c021-43da-81ba-c755e1c7b49d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audioplayer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/audioplayer/modelos/Musica.java" afterDir="false" />
+    <list default="true" id="5e6c7e2f-c021-43da-81ba-c755e1c7b49d" name="Changes" comment="Final Project - Java OOP">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/audioplayer/modelos/Podcast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/audioplayer/modelos/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/audioplayer/modelos/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/audioplayer/modelos/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/audioplayer/modelos/Musica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +54,28 @@
       <option name="presentableId" value="Default" />
       <updated>1696580203413</updated>
     </task>
+    <task id="LOCAL-00001" summary="Final Project - Java OOP">
+      <option name="closed" value="true" />
+      <created>1696582585100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696582585100</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Final Project - Java OOP">
+      <option name="closed" value="true" />
+      <created>1696582602492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696582602492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Final Project - Java OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Project - Java OOP" />
   </component>
 </project>

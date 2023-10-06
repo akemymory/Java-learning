@@ -56,13 +56,20 @@ public class Audio {
         this.classificacao = classificacao;
     }
 
+    public void curtir() {
+        curtidas++;
+    }
+
+    public void reproduzir() {
+        totalDeReproducoes++;
+    }
+
     public void exibeFichaTecnica() {
         System.out.println("Nome do Título: " + titulo);
         System.out.println("Artista: " + artista);
         System.out.println("Duração: " + duracao);
         System.out.println("Total de reproduções: " + totalDeReproducoes);
         System.out.println("Total de curtidas: " + curtidas);
-        System.out.println("Classificação: " + classificacao);
     }
 
 
