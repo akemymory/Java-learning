@@ -57,11 +57,11 @@ public class Audio {
     }
 
     public void curtir() {
-        curtidas++;
+       this.curtidas++;
     }
 
     public void reproduzir() {
-        totalDeReproducoes++;
+        this.totalDeReproducoes++;
     }
 
     public void exibeFichaTecnica() {
