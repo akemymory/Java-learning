@@ -21,4 +21,11 @@ public class Compra {
     public void setValor(double valor) {
         this.valor = valor;
     }
+
+    @Override
+    public String toString() {
+        return "Compra: " +
+                "item = " + item +
+                " , valor = " + valor;
+    }
 }
