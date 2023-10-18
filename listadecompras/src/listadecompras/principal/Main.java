@@ -2,9 +2,7 @@ package listadecompras.principal;
 
 import listadecompras.lista.Compra;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,7 +24,7 @@ public class Main {
             double preco = valor.nextDouble();
 
             Compra compra = new Compra();
-            compra.setItem(item);
+            compra.setItemComprado(item);
             compra.setValor(preco);
 
             if (totalDeCompras + preco <= limite) {
@@ -38,13 +36,34 @@ public class Main {
             }
 
             System.out.println("Para continuar digite 1 e para encerrar 2:");
-            int choice = valor.nextInt();
-            if (choice == 2) {
+            try{
+                int choice = valor.nextInt();
+                if (choice != 1) {
+                    break;
+                }
+            }catch(Exception e){
+                System.out.println("Valor invalido, considerado encerrado");
                 break;
             }
+
         }
 
-        System.out.println("Lista de compras: " + listaDeCompras);
+
+       Comparator<Compra> comparator = Comparator.comparing(Compra::getValor);
+        Collections.sort(listaDeCompras, comparator);
+
+        System.out.println("****************************");
+        System.out.println("EXTRATO DE COMPRAS");
+        System.out.println("----------------------------");
+        System.out.println("Item                   Valor");
+        for (Compra compra : listaDeCompras) {
+            System.out.println(compra);
+        }
+        System.out.println("------------------------------");
         System.out.println("Total gasto: " + totalDeCompras);
+        System.out.println("******************************");
+
+
     }
+
 }

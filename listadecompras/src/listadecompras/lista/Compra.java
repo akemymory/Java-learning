@@ -2,16 +2,16 @@ package listadecompras.lista;
 
 public class Compra {
 
-    private String item;
+    private String itemComprado;
 
     private double valor;
 
-    public String getItem() {
-        return item;
+    public String getItemComprado() {
+        return itemComprado;
     }
 
-    public void setItem(String item) {
-        this.item = item;
+    public void setItemComprado(String item) {
+        this.itemComprado = item;
     }
 
     public double getValor() {
@@ -24,8 +24,8 @@ public class Compra {
 
     @Override
     public String toString() {
-        return "Compra: " +
-                "item = " + item +
-                " , valor = " + valor;
+        return String.format("%-20s %10.2f", itemComprado, valor);
     }
+
 }
+
